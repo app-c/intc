@@ -1,5 +1,12 @@
+import { NavigationContainer } from '@react-navigation/native';
 import { Tab } from './tabRoute';
+import { LogIn } from '../pages/LogIn';
 
 export function Route() {
-   return <Tab />;
+   return (
+      <NavigationContainer>
+         {/* <Tab /> */}
+         <LogIn />
+      </NavigationContainer>
+   );
 }

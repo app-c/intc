@@ -48,11 +48,9 @@ export default function App() {
    }
 
    return (
-      <NavigationContainer>
-         <View className="flex-1" onLayout={onLayoutRootView}>
-            <Route />
-            <StatusBar style="auto" />
-         </View>
-      </NavigationContainer>
+      <View className="flex-1" onLayout={onLayoutRootView}>
+         <Route />
+         <StatusBar style="auto" />
+      </View>
    );
 }
